@@ -25,7 +25,7 @@ p {font-family: 'Beth Ellen', cursive;}
 
 .input {font-family: 'Beth Ellen', cursive;}
 
-#header {background-color: #d5687f; min-height: 40px; text-indent: 1050px; color: aliceblue; padding-top: 25px; font-size: 10px}
+#header {background-color: #d5687f; min-height: 40px; text-align: right; color: aliceblue; padding-top: 25px; font-size: 10px}
 
 #body-text {text-align: center; width: 700px}
 
