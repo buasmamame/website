@@ -21,6 +21,8 @@ p {font-family: 'Beth Ellen', cursive;}
 
 #nav-bg {background-color: #d5687f !important;}
 
+#nav-bar-logo {border-radius: 50%}
+
 #button1 {border-radius: 12px; padding: 12px 28px; transition-duration: 0.4s; background-color: #ffd112; font-family: 'Beth Ellen', cursive;}
 
 .input {font-family: 'Beth Ellen', cursive;}
