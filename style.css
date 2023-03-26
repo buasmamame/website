@@ -17,9 +17,10 @@ p {font-family: 'Beth Ellen', cursive;}
 
 #socials {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
 
-#corporate {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#reflection {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
 
-#nav-bg {background-color: #d5687f !important;}
+#nav-bg {background-color: #d5687f !important;
+		font-family:'Beth Ellen', cursive; font-size: 10px; color: black}
 
 #nav-bar-logo {border-radius: 50%}
 
@@ -34,6 +35,6 @@ p {font-family: 'Beth Ellen', cursive;}
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #d5687f;
+  background-color: #d5687f !important;
   color: white;
 }
