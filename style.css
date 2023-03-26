@@ -31,4 +31,12 @@ p {font-family: 'Beth Ellen', cursive;}
 
 #body-text {text-align: center; width: 700px}
 
-#footer {background-color: #d5687f; text-align: center; font-size: 10px;}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #d5687f;
+  color: white;
+	display: block;
+}
+
+#instagram {w3-large}
