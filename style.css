@@ -10,7 +10,7 @@ h1 {font-family: 'Abril Fatface', cursive;}
 
 h2 {font-family: 'Abril Fatface', cursive; font-size: 30px;}
 
-h4 {font-family: 'Beth Ellen', cursive; font-size: 15px;}
+h4 {font-family: 'Beth Ellen', cursive; font-size: 15px; color: #7A7B1E; }
 
 p {font-family: 'Poiret One', cursive;}
 
@@ -37,6 +37,8 @@ li {font-family: 'Poiret One', cursive;}
 
 #header {background-color: #d5687f; min-height: 40px; text-align: right; color: aliceblue; padding-top: 25px; font-size: 10px}
 
+#justifications-header {background-color: #7A7B1E;}
+
 #body-text {text-align: center; width: 700px}
 
 footer {
@@ -48,4 +50,4 @@ footer {
 
 div {margin-left: 50px;}
 
-.fa {color: #7A7B01}
+.fa {color: #7A7B1E}
