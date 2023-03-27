@@ -4,10 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Lobster&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Beth+Ellen&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 h1 {font-family: 'Abril Fatface', cursive;}
 
-p {font-family: 'Beth Ellen', cursive;}
+h2 {font-family: 'Abril Fatface', cursive; font-size: 30px;}
+
+h4 {font-family: 'Beth Ellen', cursive; font-size: 15px;}
+
+p {font-family: 'Poiret One', cursive;}
+
+li {font-family: 'Poiret One', cursive;}
 
 .yellow {background-color: gold !important}
 
@@ -17,7 +24,7 @@ p {font-family: 'Beth Ellen', cursive;}
 
 #socials {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
 
-#reflection {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#justifications {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
 
 #nav-bg {background-color: #d5687f !important;
 		font-family:'Beth Ellen', cursive; font-size: 10px; color: black}
