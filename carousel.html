@@ -9,6 +9,9 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	 
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href="style.css" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -23,10 +26,10 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+     <nav class="navbar navbar-expand-lg navbar-light" id="nav-bg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+        <img src="../../../Downloads/Logo mamame.png" width="100" alt="Nav bar logo" id="nav-bar-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,27 +37,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html" id="home">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
+              <a class="nav-link dropdown-toggle" href="#" id="about-us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+              <ul class="dropdown-menu" aria-labelledby="about-us">
+                <li><a class="dropdown-item" href="hero.html">Our Team</a></li>
+                <li><a class="dropdown-item" href="carousel.html">Our Mission and Vision</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+			  <li class="nav-item">
+              <a class="nav-link" href="cards.html" id="socials">Socials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
+              <a class="nav-link" href="corporate.html" id="reflection">Reflection</a>
             </li>
           </ul>
+			 <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn" type="submit" id="button1">Search</button>
+      </form>
         </div>
       </div>
     </nav>
@@ -115,41 +119,12 @@
     <!-- End of carrousel -->
 
     <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
-        </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
-          <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <footer class="shadow-lg mt-auto py-4">
+		
+		<a href="https://instagram.com/mamame.nl?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/profile.php?id=100090894078236"  target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+		<a href="https://pin.it/32FenfZ" target="_blank"><i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></a>
+	</footer>
     <!-- End of the grid -->
-
   </body>
 </html>

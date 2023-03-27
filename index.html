@@ -6,11 +6,15 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    @import url("style.css");
+    </style>
+    
 	  
 
     <!-- Bootstrap Javascript -->
@@ -26,10 +30,11 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+ 
     <nav class="navbar navbar-expand-lg navbar-light" id="nav-bg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-        <img src="../../../Downloads/Logo mamame.png" width="100" alt="Nav bar logo">
+        <img src="../../../Downloads/Logo mamame.png" width="100" alt="Nav bar logo" id="nav-bar-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,13 +51,10 @@
               <ul class="dropdown-menu" aria-labelledby="about-us">
                 <li><a class="dropdown-item" href="hero.html">Our Team</a></li>
                 <li><a class="dropdown-item" href="carousel.html">Our Mission and Vision</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank" id="socials">Socials</a>
+			  <li class="nav-item">
+              <a class="nav-link" href="cards.html" id="socials">Socials</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="corporate.html" id="reflection">Reflection</a>
@@ -68,15 +70,22 @@
     <!-- End of navigation bar -->
 
     <!-- Start of main placeholder in landing page -->
-    <main class="h-200 d-flex flex-column justify-content-center align-items-center"> <img src="../../../Downloads/Logo mamame.png" width="150" alt="Logo"/>
-      <h1>MamaMe</h1>
+    <main class="h-200 d-flex flex-column justify-content-center align-items-center"> <img src="../../../Downloads/Logo mamame.png" width="150" alt="Logo"/>   
 	  <div id="body-text">
         <p>
 In a world where we, as mothers of young children, always put our children before ourselves, we believe that we must be egoistic and prioritize our own time and relaxation, so we can be a rolemodel for our children, because only by loving and caring for ourselves we can love somebody else.</p>
 		<p>Our mission is to help mothers of young children, enhance their health and self-love by addressing the issue of exhaustion and lack of personal time.</p>
+		<p>&nbsp;</p>
       </div>
+		
     </main>
     <!-- End of main placeholder -->
-
-  </body>
+	<footer class="shadow-lg mt-auto py-4">
+		
+		<a href="https://instagram.com/mamame.nl?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/profile.php?id=100090894078236"  target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+		<a href="https://pin.it/32FenfZ" target="_blank"><i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i></a>
+	</footer>
+	</body>
+	
 </html>
