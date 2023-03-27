@@ -1,3 +1,40 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Lobster&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Beth+Ellen&family=Lobster&display=swap');
+
+h1 {font-family: 'Abril Fatface', cursive;}
+
+p {font-family: 'Beth Ellen', cursive;}
+
+.yellow {background-color: gold !important}
+
+#home {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+
+#about-us {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+
+#socials {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+
+#reflection {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+
+#nav-bg {background-color: #d5687f !important;
+		font-family:'Beth Ellen', cursive; font-size: 10px; color: black}
+
+#nav-bar-logo {border-radius: 50%}
+
+#button1 {border-radius: 12px; padding: 12px 28px; transition-duration: 0.4s; background-color: #ffd112; font-family: 'Beth Ellen', cursive;}
+
+.input {font-family: 'Beth Ellen', cursive;}
+
+#header {background-color: #d5687f; min-height: 40px; text-align: right; color: aliceblue; padding-top: 25px; font-size: 10px}
+
+#body-text {text-align: center; width: 700px}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #d5687f !important;
+  color: white;
+}
