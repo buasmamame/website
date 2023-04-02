@@ -53,3 +53,8 @@ div {margin-left: 50px;}
 .fa {color: #7A7B1E}
 
 a { color:#d5687f}
+
+#border-hero {border-color: #7A7B1E !important;
+background-color: #EDEDB8 !important;}
+
+#banner {height: 600px}
