@@ -82,3 +82,27 @@ background-color: #EDEDB8 !important;}
   margin-left: auto;
   margin-right: auto;
   width: 80%}
+
+#white-shirt {height: 400px;
+	width: 350px}
+
+#grey-shirt {height: 400px;
+	width: 350px}
+
+#shirts {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+padding-left: 50px;}
+
+#hoodies {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+padding-left: 150px;}
+
+#grey-hoodie {height: 300px;
+	width: 350px}
+
+#three-sweaters {height: 300px;
+	width: 250px}
