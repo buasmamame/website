@@ -25,6 +25,7 @@ li {font-family: 'Poiret One', cursive;}
 #socials {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
 
 #justifications {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#webshop {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
 
 #nav-bg {background-color: #d5687e !important;
 		font-family:'Beth Ellen', cursive; font-size: 10px; color: black}
@@ -53,3 +54,58 @@ div {margin-left: 50px;}
 .fa {color: #7A7B1E}
 
 a { color:#d5687f}
+
+#border-hero {border-color: #7A7B1E !important;
+background-color: #EDEDB8 !important;}
+
+#border-webshop {border-color: #7A7B1E !important;
+background-color: #EDEDB8 !important;}
+
+
+#banner { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#vision {background-color:#FFD112;}
+
+#mission {background-color:#7A7B1E;}
+
+.container-fluid-p-0 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%}
+
+#white-shirt {height: 400px;
+	width: 350px}
+
+#grey-shirt {height: 400px;
+	width: 350px}
+
+#shirts {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+padding-left: 50px;}
+
+#hoodies {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+padding-left: 150px;}
+
+#grey-hoodie {height: 300px;
+	width: 350px}
+
+#three-sweaters {height: 300px;
+	width: 250px}
+
+tr:hover {background-color: #7A7B1E!important;
+}
