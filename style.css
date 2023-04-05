@@ -107,5 +107,29 @@ padding-left: 150px;}
 #three-sweaters {height: 300px;
 	width: 250px}
 
+/* corporate page. Hover table */
 tr:hover {background-color: #7A7B1E!important;
 }
+
+/* corporate page. Section font choices */
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
+/* corporate page. Section font choices */
+.textfontimage {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+/* corporate page. Section color scheme */
+.containercolorscheme {
+  margin-left: 0px;
+	align-items: baseline;
+	display: flex;
+}
+
+/* corporate page. Intro green textbox */
+#border-justifications {border-color: #7A7B1E !important;
+background-color: #EDEDB8 !important;}
