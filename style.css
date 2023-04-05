@@ -112,7 +112,7 @@ tr:hover {background-color: #7A7B1E!important;
 }
 
 /* corporate page. Section font choices */
-.container {
+.containerfont {
   display: flex;
   align-items: baseline;
 }
