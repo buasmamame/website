@@ -52,7 +52,6 @@ footer {
 }
 
 
-
 .fa {color: #7A7B1E}
 
 a { color:#d5687f}
@@ -135,3 +134,25 @@ tr:hover {background-color: #7A7B1E!important;
 /* corporate page. Intro green textbox */
 #border-justifications {border-color: #7A7B1E !important;
 background-color: #EDEDB8 !important;}
+
+#margin-justification {font-family: 'Poiret One', cursive; font-weight: 700; text-color: #7A7B1E !important;}
+
+.text-decoration-none {color: #7A7B1E !important;}
+
+#carousel-button1 {position: absolute;
+  top: 50%;
+  left: 50%;
+	width: 150px;
+	height:60px;
+  transform: translate(-50%, -50%);
+  background-color: #7A7B1E;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poiret One', cursive; font-weight: 700;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;}
+
+#carousel-button1:hover {
+	background-color: #ffd014;}
