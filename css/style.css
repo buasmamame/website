@@ -12,25 +12,27 @@ h2 {font-family: 'Abril Fatface', cursive; font-size: 30px;}
 
 h4 {font-family: 'Beth Ellen', cursive; font-size: 15px; color: #7A7B1E; }
 
-p {font-family: 'Poiret One', cursive;}
+p {font-family: 'Poiret One', cursive; font-weight: 700;}
 
 li {font-family: 'Poiret One', cursive;}
 
 .yellow {background-color: gold !important}
 
-#home {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#home {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
 
-#about-us {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#about-us {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
 
-#socials {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#socials {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
 
-#justifications {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
-#webshop {font-family: 'Beth Ellen', cursive; font-size: 15px; color: aliceblue}
+#justifications {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
+#webshop {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
 
 #nav-bg {background-color: #d5687e !important;
 		font-family:'Beth Ellen', cursive; font-size: 10px; color: black}
 
 #nav-bar-logo {border-radius: 50%}
+
+#searchbar {width: 180px;}
 
 #button1 {border-radius: 12px; padding: 12px 28px; transition-duration: 0.4s; background-color: #ffd014; font-family: 'Beth Ellen', cursive;}
 
