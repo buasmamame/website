@@ -51,8 +51,7 @@ footer {
   color: white;
 }
 
-
-.fa {color: #7A7B1E}
+.fa {color: #ffd014}
 
 a { color:#d5687f}
 
@@ -137,7 +136,7 @@ background-color: #EDEDB8 !important;}
 
 #margin-justification {font-family: 'Poiret One', cursive; font-weight: 700; text-color: #7A7B1E !important;}
 
-.text-decoration-none {color: #7A7B1E !important;}
+.text-decoration-none {color: #7A7B1E !important;} carousel-button1
 
 #carousel-button1 {position: absolute;
   top: 50%;
@@ -146,7 +145,6 @@ background-color: #EDEDB8 !important;}
 	height:60px;
   transform: translate(-50%, -50%);
   background-color: #7A7B1E;
-  color: white;
   font-size: 16px;
   font-family: 'Poiret One', cursive; font-weight: 700;
   padding: 12px 24px;
@@ -156,3 +154,6 @@ background-color: #EDEDB8 !important;}
 
 #carousel-button1:hover {
 	background-color: #ffd014;}
+
+.carousel-item {
+	height: 500px;}
