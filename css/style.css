@@ -18,14 +18,14 @@ li {font-family: 'Poiret One', cursive; font-weight: 700;}
 
 .yellow {background-color: gold !important}
 
-#home {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
+#home {font-family: 'Beth Ellen', cursive; font-size: 22px; color: #FFF}
 
-#about-us {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
+#about-us {font-family: 'Beth Ellen', cursive; font-size: 22px; color: #FFF}
 
-#socials {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
+#socials {font-family: 'Beth Ellen', cursive; font-size: 22px; color: #FFF}
 
-#justifications {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
-#webshop {font-family: 'Beth Ellen', cursive; font-size: 16px; color: aliceblue}
+#justifications {font-family: 'Beth Ellen', cursive; font-size: 22px; color: #FFF}
+#webshop {font-family: 'Beth Ellen', cursive; font-size: 22px; color: #FFF}
 
 #nav-bg {background-color: #d5687e !important;
 		font-family:'Beth Ellen', cursive; font-size: 10px; color: black}
@@ -38,7 +38,7 @@ li {font-family: 'Poiret One', cursive; font-weight: 700;}
 
 .input {font-family: 'Beth Ellen', cursive;}
 
-#header {background-color: #d5687f; min-height: 40px; text-align: right; color: aliceblue; padding-top: 25px; font-size: 10px}
+#header {background-color: #d5687f; min-height: 40px; text-align: right; color: #FFF; padding-top: 25px; font-size: 10px}
 
 #justifications-header {background-color: #7A7B1E;}
 
@@ -125,11 +125,13 @@ tr:hover {background-color: #7A7B1E!important;
 
 /* corporate page. Section color scheme */
 .containercolorscheme {
-  margin-left: 0px;
 	align-items: baseline;
 	display: flex;
 }
 
+textcolorscheme {
+text-align: right;
+}
 /* corporate page. Intro green textbox */
 #border-justifications {border-color: #7A7B1E !important;
 background-color: #EDEDB8 !important;}
