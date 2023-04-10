@@ -173,3 +173,16 @@ background-color: #EDEDB8 !important;}
 
 .btn:hover {
 	background-color: #ffd014;}
+
+.image {
+	flex-basis: 40%}
+
+.container-vision {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text {
+  padding-left: 20px;
+}
