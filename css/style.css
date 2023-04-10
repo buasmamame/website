@@ -175,14 +175,18 @@ background-color: #EDEDB8 !important;}
 	background-color: #ffd014;}
 
 .image {
-	flex-basis: 40%}
+	flex-basis: 30%}
 
 
 .container-vision {
   display: flex;
   align-items: center;
-  justify-content: center
-}
+  justify-content: center;
+margin-left: auto;
+  margin-right: auto;
+  width: 90%}
+
+.persona {margin-left: 500px;}
 
 .text {
 	padding-left: 20px;
