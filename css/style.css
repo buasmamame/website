@@ -186,7 +186,8 @@ margin-left: auto;
   margin-right: auto;
   width: 90%}
 
-.persona {margin-left: 500px;}
+.persona {float: right;
+margin-left: 20px;}
 
 .text {
 	padding-left: 20px;
