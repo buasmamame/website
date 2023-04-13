@@ -167,14 +167,15 @@ background-color: #EDEDB8 !important;}
 .btn {
 	width: 200px;
 	height: 65px;
-  background-color: #7A7B1E;
+  background-color: #7A7B1E!important;
 	color: #FFFFFF;
   font-size: 15px;
   font-family: 'Poiret One', cursive; font-weight: 700;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;}
+  border-radius: 5px;
+text-align: center;}
 
 .btn:hover {
 	background-color: #ffd014;}
